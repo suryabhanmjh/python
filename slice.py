@@ -20,3 +20,6 @@ print(s[7:7]) # prints ''
 
 v='I love python'
 print(v[::-1][1:7][::-1][2:3])
+
+u='PythonProgrammingLanguage'
+print(u[6:][::-1][:6]) # prints o
