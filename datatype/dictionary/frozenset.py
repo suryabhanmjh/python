@@ -21,3 +21,7 @@ print(fs1.intersection(fs2)) # prints frozenset()
 print(fs2.difference(fs1)) # prints frozenset({10, 20, 30, 40, 50})
 print(fs1.difference(fs2)) # prints frozenset({1, 2, 3, 4, 5})
 print(fs1.symmetric_difference(fs2)) # prints frozenset({1, 2, 3, 4, 5, 10, 20, 30, 40, 50})
+print(fs1.isdisjoint(fs2)) # prints True
+print(fs1.issubset(fs2)) # prints False
+print(fs1.issuperset(fs2)) # prints False
+print(fs1 == fs2) # prints False compare the two frozensets
