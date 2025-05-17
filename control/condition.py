@@ -39,3 +39,6 @@ else:
 
 #up to n natural no.
 e=int(input("Enter a number: "))
+# natural no. is 1 to n
+for i in range(1,e+1):
+    print(i)
