@@ -35,3 +35,7 @@ else:
 # to avoide sequentially repeated of code block of code we use iteration/looping statements
 # for loop
 # while loop
+
+
+#up to n natural no.
+e=int(input("Enter a number: "))
