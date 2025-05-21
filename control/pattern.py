@@ -134,14 +134,36 @@
 #     print(f'{n} is not a palindrome number')    
 
 # second method
-n=int(input("Enter a number: ")) 
-rev=0
-x=n
-while n>0:
-    last_digit=n%10
-    rev=rev*10+last_digit
-    n=n//10
-if rev==x:
-    print(f'{x} is a palindrome number')
+# n=int(input("Enter a number: ")) 
+# rev=0
+# x=n
+# while n>0:
+#     last_digit=n%10
+#     rev=rev*10+last_digit
+#     n=n//10
+# if rev==x:
+#     print(f'{x} is a palindrome number')
+# else:
+#     print(f'{x} is not a palindrome number')
+
+
+# conventional method to check palindrome in srting not use slicing
+
+s=input("Enter a string: ")
+palindrome=True
+l=int(len(s)/2)
+i,j=0,-1
+
+while l>0:
+    if s[i]==s[j]:
+        pass
+    else:
+        palindrome=False
+        break
+    i+=1
+    j-=1
+    l-=1
+if palindrome:
+    print(f'{s} is a palindrome string')
 else:
-    print(f'{x} is not a palindrome number')
+    print(f'{s} is not a palindrome string')
