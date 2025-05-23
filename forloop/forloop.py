@@ -27,8 +27,15 @@
 
 # print like this ['e', 'f', 'g', 'h', 'i']
 
+# s='abcde'
+# s1=''
+# for i in s:
+#     s1=''.join((s1,chr(ord(i)+4)))
+# print(s1)    
+
+# reverse
 s='abcde'
 s1=''
 for i in s:
-    s1=''.join((s1,chr(ord(i)+4)))
-print(s1)    
+    s1=''.join((i,s1))
+print(s1)
