@@ -97,13 +97,13 @@
 # f.writelines(data)
 # f.close()
 
-f=open('n7.txt', 'a+')
-data='''
-n=7
-i=1
-while i<=n:
-    print(i)
-    i=i+1
-'''
-f.write(data)
-f.close()
+# f=open('n7.txt', 'a+')
+# data='''
+# n=7
+# i=1
+# while i<=n:
+#     print(i)
+#     i=i+1
+# '''
+# f.write(data)
+# f.close()
